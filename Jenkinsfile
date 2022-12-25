@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-               sh './https://github.com/SANMATHI07/deploydependency/blob/main/script.sh'
+               git url: 'https://github.com/SANMATHI07/deploydependency/blob/main/script.sh'
            }
         }  
     }
