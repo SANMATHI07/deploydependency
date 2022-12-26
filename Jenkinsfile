@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-               sh "chmod +x ./dep.sh"
-                sh "./"
+               sh "chmod +x ./script.sh"
+                sh "./script.sh"
            }
         }  
     }
