@@ -38,3 +38,4 @@ echo "TSH installed successfully"
 install_awscli
 install_netcat
 install_tsh
+HI
